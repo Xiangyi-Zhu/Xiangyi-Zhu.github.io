@@ -1,0 +1,57 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #fffff0;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.book {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.dataset {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 150px;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.dataset img {
+    max-width: 150px;
+    object-fit: contain;
+    margin: 1rem;
+}
+
+.item-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+
